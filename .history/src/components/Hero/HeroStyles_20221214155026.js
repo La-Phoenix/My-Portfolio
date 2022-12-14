@@ -29,5 +29,4 @@ export const ImgDiv = styled.div`
   height: 30%;
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
 `;

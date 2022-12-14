@@ -26,8 +26,7 @@ export const Img = styled.img`
 `;
 export const ImgDiv = styled.div`
   width: 100%;
-  height: 30%;
+  height: 30%
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
 `;

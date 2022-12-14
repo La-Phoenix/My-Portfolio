@@ -22,9 +22,9 @@ export const projects = [
   {
     title: "WebShopApp",
     description:
-      "Using Angular and TypeScript built an ecommerces app with stripe payment system",
+      "Using Angular and TypeScript built an ecommerces app with a payment system",
     image: "/images/WebshopApp.png",
-    tags: ["Angular", "TypeScript", "Stripe"],
+    tags: ["Angular", "TypeScript"],
     source: "https://github.com/La-Phoenix/WepShopApp",
     visit: "https://google.com",
     id: 2,
@@ -54,7 +54,7 @@ export const projects = [
     description:
       "Using React, Node, Express and PostgreSQL, built an that allows users to share images with of favorite places. With authentication and authorization.",
     image: "/images/MERNApp.png",
-    tags: ["React", "Node", "MongoDB", "Express"],
+    tags: ["React", "Node", "PostgreSQL", "Express"],
     source: "https://github.com/La-Phoenix/MERN-App",
     visit: "https://google.com",
     id: 3,

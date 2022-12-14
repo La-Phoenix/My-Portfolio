@@ -20,14 +20,8 @@ export const LeftSection = styled.div`
 
 export const Img = styled.img`
   width: 40%;
+  height: 40%;
   object-fit: cover;
   overflow: hidden;
   border-radius: 50%;
-`;
-export const ImgDiv = styled.div`
-  width: 100%;
-  height: 30%;
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
 `;

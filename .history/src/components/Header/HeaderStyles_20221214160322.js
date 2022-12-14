@@ -36,8 +36,8 @@ export const Div2 = styled.div`
   display: flex;
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
-    flex-direction: column;
-    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     grid-area: 2 / 2 / 3 / 5;
   }
 `;

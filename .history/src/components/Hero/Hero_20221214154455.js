@@ -6,15 +6,14 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
-import { Img, ImgDiv, LeftSection } from "./HeroStyles";
+import { Img, LeftSection } from "./HeroStyles";
 
 const Hero = (props) => (
   <div>
     <Section row nopadding>
       <LeftSection>
-        <ImgDiv>
-          <Img src="/images/laphoenix.jpg" />
-        </ImgDiv>
+        
+        <Img src="/images/laphoenix.jpg" />
         <SectionTitle main center>
           Hi, I am <br />
           Samuel Okundalaiye

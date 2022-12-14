@@ -22,7 +22,7 @@ export const projects = [
   {
     title: "WebShopApp",
     description:
-      "Using Angular and TypeScript built an ecommerces app with stripe payment system",
+      "Using Angular and TypeScript built an ecommerces app with a payment system",
     image: "/images/WebshopApp.png",
     tags: ["Angular", "TypeScript", "Stripe"],
     source: "https://github.com/La-Phoenix/WepShopApp",

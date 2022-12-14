@@ -38,6 +38,8 @@ export const Div2 = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     flex-direction: column;
     align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     grid-area: 2 / 2 / 3 / 5;
   }
 `;

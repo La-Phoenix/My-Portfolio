@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const LeftSection = styled.div`
   width: 100%;
@@ -16,18 +16,4 @@ export const LeftSection = styled.div`
 
     margin: 0 auto;
   }
-`;
-
-export const Img = styled.img`
-  width: 40%;
-  object-fit: cover;
-  overflow: hidden;
-  border-radius: 50%;
-`;
-export const ImgDiv = styled.div`
-  width: 100%;
-  height: 30%;
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
 `;
