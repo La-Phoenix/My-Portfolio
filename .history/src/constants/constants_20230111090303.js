@@ -30,16 +30,6 @@ export const projects = [
     id: 3,
   },
   {
-    title: "WebShopApp",
-    description:
-      "Using Angular and TypeScript built an ecommerces app with stripe payment system",
-    image: "/images/WebshopApp.png",
-    tags: ["Angular", "TypeScript", "Stripe"],
-    source: "https://github.com/La-Phoenix/WepShopApp",
-    visit: "https://webshopapp.netlify.app",
-    id: 2,
-  },
-  {
     title: "YelpCamp",
     description:
       "Using Node.js, Express, MongoDB and EJS, built an app with authorization and authentication that allows users to shared images of their favorite places. Also allows authenticated users to leave reviews.",
@@ -48,6 +38,16 @@ export const projects = [
     source: "https://github.com/La-Phoenix/YelpCamp",
     visit: "https://google.com",
     id: 1,
+  },
+  {
+    title: "WebShopApp",
+    description:
+      "Using Angular and TypeScript built an ecommerces app with stripe payment system",
+    image: "/images/WebshopApp.png",
+    tags: ["Angular", "TypeScript", "Stripe"],
+    source: "https://github.com/La-Phoenix/WepShopApp",
+    visit: "https://google.com",
+    id: 2,
   },
   // {
   //   title: "Drag and Drop",

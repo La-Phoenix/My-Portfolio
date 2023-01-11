@@ -36,7 +36,7 @@ export const projects = [
     image: "/images/WebshopApp.png",
     tags: ["Angular", "TypeScript", "Stripe"],
     source: "https://github.com/La-Phoenix/WepShopApp",
-    visit: "https://webshopapp.netlify.app",
+    visit: "https://webshopapp.netlify.app/home",
     id: 2,
   },
   {
