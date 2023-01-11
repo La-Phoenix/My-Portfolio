@@ -16,31 +16,33 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link
-        href="/"
-        style={{
-          display: "flex",
-          alignItems: "center",
-          color: "white",
-          marginBottom: "20px",
-        }}
-      >
-        <DiCssdeck size="3rem" />
-        <Span>Portfolio</Span>
+      <Link href="/">
+        <a>
+          <DiCssdeck size="3rem" />
+          <Span>Portfolio</Span>
+        </a>
       </Link>
     </Div1>
     <Div2>
       <li>
-        <NavLink href="#projects">Projects</NavLink>
+        <Link href="#projects">
+          <NavLink>Projects</NavLink>
+        </Link>
       </li>
       <li>
-        <NavLink href="#tech">Technologies</NavLink>
+        <Link href="#tech">
+          <NavLink>Technologies</NavLink>
+        </Link>
       </li>
       <li>
-        <NavLink href="#about">About</NavLink>
+        <Link href="#about">
+          <NavLink>About</NavLink>
+        </Link>
       </li>
       <li>
-        <NavLink href="#contact">Contact</NavLink>
+        <Link href="#contact">
+          <NavLink>Contact</NavLink>
+        </Link>
       </li>
     </Div2>
     <Div3>

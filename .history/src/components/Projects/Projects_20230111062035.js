@@ -29,10 +29,10 @@ const Projects = () => (
         ({ id, image, title, description, tags, source, visit }) => (
           <BlogCard key={id}>
             <Img src={image} />
-            <TitleContent title="true">
-              <HeaderThree title="true">{title}</HeaderThree>
+            {/* <TitleContent title>
+              <HeaderThree title>{title}</HeaderThree>
               <Hr />
-            </TitleContent>
+            </TitleContent> */}
             <CardInfo>{description}</CardInfo>
             <div>
               <TitleContent>Stack</TitleContent>

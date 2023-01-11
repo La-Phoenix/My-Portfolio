@@ -2,6 +2,10 @@ import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
+// Add this in your component file
+require("react-dom");
+window.React2 = require("react");
+console.log(window.React1 === window.React2);
 
 import {
   Container,
