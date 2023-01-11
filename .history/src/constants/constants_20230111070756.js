@@ -2,10 +2,10 @@ export const projects = [
   {
     title: "Movies App",
     description:
-      "Using Angular, Bootstrap, and TMDB (API source) built a movie website with multiple pages that have pagination, functional search bar and other awesome features. CLICK 'Visit' TO VIEW SITE.",
+      "Using Angular, Bootstrap, and TMDB (API source) built a movie website with multiple pages that have pagination, functional search bar and other awesome features. CLICK 'visit' to view site.",
     image: "/images/MovieApp2.png",
-    tags: ["Angular", "Bootstrap", "TMDB"],
-    source: "https://github.com/La-Phoenix/MovieApp",
+    tags: ["Mongo", "Express", "React", "Node"],
+    source: "https://github.com/La-Phoenix/Memories",
     visit: "https://laphoenixmovieapp.netlify.app/",
     id: 0,
   },
