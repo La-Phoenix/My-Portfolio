@@ -20,10 +20,9 @@ const Hero = (props) => (
           Samuel Okundalaiye
         </SectionTitle>
         <SectionText>
-          I am a growing Web Developer with a year hands on experience in
-          React.js, Angular, Node.js, Express.js, Angular Material, Bootstrap,
-          HTML5, CSS3, JavaScript, EJS(Embedded JavaScript), PostgreSQL and
-          MongoDB.
+          I am a growing Web Developer with two years hands-on experience in
+          React.js, Angular, Node.js, Express.js, MongoDB. I have also worked with, Typescript, DevExtreme, Angular Material, Bootstrap, Material UI
+          , EJS(Embedded JavaScript), and PostgreSQL.
         </SectionText>
         <Button
           onClick={() =>

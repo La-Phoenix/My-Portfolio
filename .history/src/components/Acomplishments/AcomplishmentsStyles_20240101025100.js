@@ -32,10 +32,12 @@ export const Box = styled.div`
   }
 
   @media ${props => props.theme.breakpoints.md} {
+    height: 135px;
     padding: 16px;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
+    height: 110px;
     padding: 12px;
     
     &:nth-child(2n){

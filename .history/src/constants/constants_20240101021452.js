@@ -1,13 +1,43 @@
 export const projects = [
   {
+    title: "Movies App",
+    description:
+      "Using Angular, Bootstrap, and TMDB (API source) built a movie website with multiple pages that have pagination, functional search bar and other awesome features. CLICK 'Visit' TO VIEW SITE.",
+    image: "/images/MovieApp2.png",
+    tags: ["Angular", "Bootstrap", "TMDB"],
+    source: "https://github.com/La-Phoenix/MovieApp",
+    visit: "https://laphoenixmovieapp.netlify.app/",
+    id: 0,
+  },
+  {
     title: "MERN Memories",
     description:
       "Using React, Node.js, Express & MongoDB, built a Full Stack MERN Application; a simple social media app that allows users to post interesting events that happened in their lives.",
     image: "/images/1.png",
     tags: ["Mongo", "Express", "React", "Node"],
     source: "https://github.com/La-Phoenix/Memories",
-    visit: "https://google.com",
+    visit: "https://mern-memories-laphoenix.netlify.app/",
     id: 0,
+  },
+  {
+    title: "MERN App",
+    description:
+      "Using React, Node, Express and PostgreSQL, built an that allows users to share images with of favorite places. With authentication and authorization.",
+    image: "/images/MERNApp.png",
+    tags: ["React", "Node", "MongoDB", "Express"],
+    source: "https://github.com/La-Phoenix/MERN-App",
+    visit: "https://mernappmem.netlify.app/",
+    id: 3,
+  },
+  {
+    title: "WebShopApp",
+    description:
+      "Using Angular and TypeScript built an ecommerces app with stripe payment system",
+    image: "/images/WebshopApp.png",
+    tags: ["Angular", "TypeScript", "Stripe"],
+    source: "https://github.com/La-Phoenix/WepShopApp",
+    visit: "https://webshopapp.netlify.app",
+    id: 2,
   },
   {
     title: "YelpCamp",
@@ -16,18 +46,8 @@ export const projects = [
     image: "/images/Campground4.png",
     tags: ["Node", "Express", "EJS", "MongoDB"],
     source: "https://github.com/La-Phoenix/YelpCamp",
-    visit: "https://google.com",
+    visit: "https://yelp-camp-fjsn.onrender.com",
     id: 1,
-  },
-  {
-    title: "WebShopApp",
-    description:
-      "Using Angular and TypeScript built an ecommerces app with a payment system",
-    image: "/images/WebshopApp.png",
-    tags: ["Angular", "TypeScript"],
-    source: "https://github.com/La-Phoenix/WepShopApp",
-    visit: "https://google.com",
-    id: 2,
   },
   // {
   //   title: "Drag and Drop",
@@ -49,16 +69,6 @@ export const projects = [
   //   visit: "https://google.com",
   //   id: 3,
   // },
-  {
-    title: "MERN App",
-    description:
-      "Using React, Node, Express and PostgreSQL, built an that allows users to share images with of favorite places. With authentication and authorization.",
-    image: "/images/MERNApp.png",
-    tags: ["React", "Node", "PostgreSQL", "Express"],
-    source: "https://github.com/La-Phoenix/MERNApp",
-    visit: "https://google.com",
-    id: 3,
-  },
 ];
 
 export const TimeLineData = [
@@ -73,4 +83,8 @@ export const TimeLineData = [
   { year: "September", text: "Started working with React.js." },
   { year: "November", text: "Started working with Angular and PostgreSQL." },
   { year: "November", text: "Started Intership at Ithena.ai." },
+  {
+    year: "2023(October)",
+    text: "Completed my internship at Ithena.ai",
+  },
 ];

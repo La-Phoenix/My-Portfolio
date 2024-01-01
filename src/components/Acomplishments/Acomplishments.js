@@ -26,7 +26,11 @@ const Acomplishments = () => (
       ))} */}
       <Box>
         <BoxNum>Ithena</BoxNum>
-        <BoxText>Web Development Intern(November(2022) - till date)</BoxText>
+        <BoxText>Web Development Intern(November(2022) - October(2023))</BoxText>
+      </Box>
+      <Box>
+        <BoxNum>Universiry Of Ibadan (Nigeria)</BoxNum>
+        <BoxText>Started Studying Computer Science(September(2023) - till date)</BoxText>
       </Box>
     </Boxes>
   </Section>

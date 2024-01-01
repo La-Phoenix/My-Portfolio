@@ -26,7 +26,7 @@ export const projects = [
     image: "/images/MERNApp.png",
     tags: ["React", "Node", "MongoDB", "Express"],
     source: "https://github.com/La-Phoenix/MERN-App",
-    visit: "https://mern-app00001.web.app/",
+    visit: "https://mernappmem.netlify.app/",
     id: 3,
   },
   {
@@ -46,7 +46,7 @@ export const projects = [
     image: "/images/Campground4.png",
     tags: ["Node", "Express", "EJS", "MongoDB"],
     source: "https://github.com/La-Phoenix/YelpCamp",
-    visit: "https://google.com",
+    visit: "https://yelp-camp-fjsn.onrender.com",
     id: 1,
   },
   // {
@@ -83,4 +83,8 @@ export const TimeLineData = [
   { year: "September", text: "Started working with React.js." },
   { year: "November", text: "Started working with Angular and PostgreSQL." },
   { year: "November", text: "Started Intership at Ithena.ai." },
+  {
+    year: "2023(October)",
+    text: "Completed my internship at Ithena.ai",
+  },
 ];

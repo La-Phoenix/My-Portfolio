@@ -1,23 +1,33 @@
 export const projects = [
   {
+    title: "Movies App",
+    description:
+      "Using Angular, Bootstrap, and TMDB (API source) built a movie website with multiple pages that have pagination, functional search bar and other awesome features. CLICK 'Visit' TO VIEW SITE.",
+    image: "/images/MovieApp2.png",
+    tags: ["Angular", "Bootstrap", "TMDB"],
+    source: "https://github.com/La-Phoenix/MovieApp",
+    visit: "https://laphoenixmovieapp.netlify.app/",
+    id: 0,
+  },
+  {
     title: "MERN Memories",
     description:
       "Using React, Node.js, Express & MongoDB, built a Full Stack MERN Application; a simple social media app that allows users to post interesting events that happened in their lives.",
     image: "/images/1.png",
     tags: ["Mongo", "Express", "React", "Node"],
     source: "https://github.com/La-Phoenix/Memories",
-    visit: "https://google.com",
+    visit: "https://mern-memories-laphoenix.netlify.app/",
     id: 0,
   },
   {
-    title: "YelpCamp",
+    title: "MERN App",
     description:
-      "Using Node.js, Express, MongoDB and EJS, built an app with authorization and authentication that allows users to shared images of their favorite places. Also allows authenticated users to leave reviews.",
-    image: "/images/Campground4.png",
-    tags: ["Node", "Express", "EJS", "MongoDB"],
-    source: "https://github.com/La-Phoenix/YelpCamp",
-    visit: "https://google.com",
-    id: 1,
+      "Using React, Node, Express and PostgreSQL, built an that allows users to share images with of favorite places. With authentication and authorization.",
+    image: "/images/MERNApp.png",
+    tags: ["React", "Node", "MongoDB", "Express"],
+    source: "https://github.com/La-Phoenix/MERN-App",
+    visit: "https://mern-app00001.web.app/",
+    id: 3,
   },
   {
     title: "WebShopApp",
@@ -26,8 +36,18 @@ export const projects = [
     image: "/images/WebshopApp.png",
     tags: ["Angular", "TypeScript", "Stripe"],
     source: "https://github.com/La-Phoenix/WepShopApp",
-    visit: "https://google.com",
+    visit: "https://webshopapp.netlify.app",
     id: 2,
+  },
+  {
+    title: "YelpCamp",
+    description:
+      "Using Node.js, Express, MongoDB and EJS, built an app with authorization and authentication that allows users to shared images of their favorite places. Also allows authenticated users to leave reviews.",
+    image: "/images/Campground4.png",
+    tags: ["Node", "Express", "EJS", "MongoDB"],
+    source: "https://github.com/La-Phoenix/YelpCamp",
+    visit: "https://yelp-camp-fjsn.onrender.com",
+    id: 1,
   },
   // {
   //   title: "Drag and Drop",
@@ -49,16 +69,6 @@ export const projects = [
   //   visit: "https://google.com",
   //   id: 3,
   // },
-  {
-    title: "MERN App",
-    description:
-      "Using React, Node, Express and PostgreSQL, built an that allows users to share images with of favorite places. With authentication and authorization.",
-    image: "/images/MERNApp.png",
-    tags: ["React", "Node", "MongoDB", "Express"],
-    source: "https://github.com/La-Phoenix/MERN-App",
-    visit: "https://google.com",
-    id: 3,
-  },
 ];
 
 export const TimeLineData = [
