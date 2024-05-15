@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "University Of Ibadan Admissions App",
+    description:
+      "Using React, Material UI, Node.js, Express & MongoDB, built a Full Stack MERN Application; an admission website for students clearance, change of course and tranfer. Also for university staffs to handle student clearance and course change",
+    image: "/images/Screenshot 2024-05-15 203215.png",
+    tags: ["React", "Material UI", "Node", "Express", "MongoDB"],
+    source: "https://github.com/La-Phoenix/UI_ADMISSIONS",
+    visit: "https://celadon-lebkuchen-7bc9c2.netlify.app",
+    id: 0,
+  },
+  {
     title: "Movies App",
     description:
       "Using Angular, Bootstrap, and TMDB (API source) built a movie website with multiple pages that have pagination, functional search bar and other awesome features. CLICK 'Visit' TO VIEW SITE.",
