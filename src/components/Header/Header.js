@@ -40,6 +40,9 @@ const Header = () => (
         <NavLink href="#about">About</NavLink>
       </li>
       <li>
+        <NavLink href="#cv">Resume</NavLink>
+      </li>
+      <li>
         <NavLink href="#contact">Contact</NavLink>
       </li>
     </Div2>

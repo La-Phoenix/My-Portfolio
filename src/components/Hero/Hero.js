@@ -20,10 +20,9 @@ const Hero = (props) => (
           Samuel Okundalaiye
         </SectionTitle>
         <SectionText>
-          I am a growing Web Developer with two years hands-on experience in
-          React.js, Angular, Node.js, Express.js, MongoDB. I have also worked with, Typescript, DevExtreme, Angular Material, Bootstrap, Material UI
-          , EJS(Embedded JavaScript), and PostgreSQL.
+          I am a growing Web Developer who began my journey in 2020. I have experience with technologies like React.js, TypeScript, Nest, Angular, Node.js, Express.js, and MongoDB. I have also worked with  DevExtreme, Angular Material, Bootstrap, Material UI, EJS (Embedded JavaScript), and PostgreSQL. Currently, I am expanding my skills by learning DevOps.
         </SectionText>
+
         <Button
           onClick={() =>
             (window.location = "https://www.linkedin.com/in/samuel-okundalaiye")

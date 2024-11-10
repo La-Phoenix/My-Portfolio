@@ -1,5 +1,25 @@
 export const projects = [
   {
+    title: "wunmistore",
+    description:
+      "In Development...",
+    image: "/images/WhatsApp Image 2024-11-08 at 11.54.27_8e3f2eeb.jpg",
+    tags: ["Node", "Nest", "Typescript", "MongoDB", "Reactjs"],
+    source: "https://github.com/La-Phoenix/wunmi_store",
+    visit: "https://google.com",
+    id: 1,
+  },
+  {
+    title: "YelpCamp",
+    description:
+      "Using Node.js, Express, MongoDB and EJS, built an app with authorization and authentication that allows users to shared images of their favorite places. Also allows authenticated users to leave reviews.",
+    image: "/images/Campground4.png",
+    tags: ["Node", "Express", "EJS", "MongoDB"],
+    source: "https://github.com/La-Phoenix/YelpCamp",
+    visit: "https://yelp-camp-fjsn.onrender.com",
+    id: 1,
+  },
+  {
     title: "University Of Ibadan Admissions App",
     description:
       "Using React, Material UI, Node.js, Express & MongoDB, built a Full Stack MERN Application; an admission website for students clearance, change of course and tranfer. Also for university staffs to handle student clearance and course change",
@@ -48,16 +68,6 @@ export const projects = [
     source: "https://github.com/La-Phoenix/WepShopApp",
     visit: "https://webshopapp.netlify.app",
     id: 2,
-  },
-  {
-    title: "YelpCamp",
-    description:
-      "Using Node.js, Express, MongoDB and EJS, built an app with authorization and authentication that allows users to shared images of their favorite places. Also allows authenticated users to leave reviews.",
-    image: "/images/Campground4.png",
-    tags: ["Node", "Express", "EJS", "MongoDB"],
-    source: "https://github.com/La-Phoenix/YelpCamp",
-    visit: "https://yelp-camp-fjsn.onrender.com",
-    id: 1,
   },
   // {
   //   title: "Drag and Drop",
