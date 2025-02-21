@@ -6,7 +6,7 @@ export const projects = [
     image: "/images/WhatsApp Image 2024-11-08 at 11.54.27_8e3f2eeb.jpg",
     tags: ["Node", "Nest", "Typescript", "MongoDB", "Reactjs"],
     source: "https://github.com/La-Phoenix/wunmi_store",
-    visit: "https://google.com",
+    visit: "https://wunmi-store.vercel.app",
     id: 1,
   },
   {
