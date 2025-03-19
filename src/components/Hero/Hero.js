@@ -7,6 +7,7 @@ import {
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { Img, ImgDiv, LeftSection } from "./HeroStyles";
+import { ABOUTME } from "../../constants/constants";
 
 const Hero = (props) => (
   <div>
@@ -20,7 +21,7 @@ const Hero = (props) => (
           Samuel Okundalaiye
         </SectionTitle>
         <SectionText>
-          I am a growing Web Developer who began my journey in 2020. I have experience with technologies like React.js, TypeScript, Nest, Angular, Node.js, Express.js, and MongoDB. I have also worked with  DevExtreme, Angular Material, Bootstrap, Material UI, EJS (Embedded JavaScript), and PostgreSQL. Currently, I am expanding my skills by learning DevOps.
+          {ABOUTME}
         </SectionText>
 
         <Button

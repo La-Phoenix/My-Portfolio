@@ -43,7 +43,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js and Angular
+            React.js, Angular and Nextjs
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -53,7 +53,8 @@ const Technologies = () => (
           <ListTitle>Backend-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js using Express.js
+            Node.js using Express.js, Nestjs
+            And ASP.NET
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "FarmServer",
+    description:
+      "FarmServer is a full-stack web API designed to streamline farm management. It enables farmers to register, log in, and manage farm-related data efficiently.  FarmServer includes authentication, secure data handling, and a scalable architecture for seamless deployment. ",
+    image: "/images/farmServer.png",
+    tags: ["ASP.NET Core", "Entity Framework Core", "Docker ", " PostgreSQL"],
+    source: "https://github.com/La-Phoenix/FarmServer",
+    visit: "https://farmserver.onrender.com/welcome",
+    id: 1,
+  },
+  {
     title: "wunmistore",
     description:
       "In Development...",
@@ -108,3 +118,19 @@ export const TimeLineData = [
     text: "Completed my internship at Ithena.ai",
   },
 ];
+
+
+
+export const ABOUTME = `
+                  I am a passionate Full-Stack Web Developer with expertise in multiple programming languages,  
+                  including TypeScript, JavaScript, C#, JAVA Python, and a bit of PHP and Assembly Languaguage(Series 8086).  
+
+                  I have experience working with React.js, Angular, NestJS, Node.js, Express.js, Laravel,  
+                  and ASP.NET Core for building scalable web applications. My database expertise includes  
+                  PostgreSQL and MongoDB, and I integrate JWT, Google OAuth for authentication.  
+
+                  I have also worked with Docker, CI/CD pipelines, integration testing, and API documentation with Swagger.  
+                  On the frontend, I utilize TailwindCSS, Material UI, and DevExtreme for modern UI development.  
+
+                  Currently, I am expanding my expertise in DevOps and cloud deployment to optimize application performance and scalability. 🚀  
+                  `
